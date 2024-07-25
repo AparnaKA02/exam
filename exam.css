@@ -1,0 +1,272 @@
+#main{
+    width: 100%;
+    height: 600px;
+    background-image: url('./img/best-travel-background-04ml2h9wywaoo6ei.jpg');
+    
+}
+.img-para{
+    width: 400px;
+    height: 500px;
+    font-size: 70px;
+    margin-left: 800px;
+    margin-top: 40px;
+}
+.heading1{
+    text-align: center;
+    /* font-family: "Allura", cursive ; */
+}
+#enquiry{
+    margin-left: 480px;
+    
+}
+.grid-item {
+    background-color: #f6f8f3; 
+    padding: 20px; 
+    border: 1px solid #1c1919;
+    border-radius: 5px;
+    margin: 8px 8px 8px 8px;
+    width: 300px;
+    /* width: 100%; */
+    height: 500px;
+    text-align: center; 
+    /* margin-top: 30px; */
+  }
+  .grid-imgg{
+    width: 250px;
+    height: 230px;
+  }
+
+  .glink{
+      /* margin-left: 60px; */
+      text-decoration: none;
+      /* border: green solid 1px;
+      border-radius: 5px; */
+      color: rgb(5, 6, 12);
+      font-weight: 800;
+      text-align: center;
+      margin-top: 30px; 
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-size: large;
+      font-weight: 800;
+  }
+  .honeymoon{
+    /* display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-template-rows: repeat(4 ,1fr);  */
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    gap: 5px; 
+    padding: 20px; 
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    /* margin-left: 400px; */
+    
+  }
+  .btn{
+    border: solid 1px;
+    border-color: rgb(240, 242, 246);
+    text-align: center;
+    width: 250px;
+    height: 30px;
+    background-color: rgb(90, 102, 161);
+    border-radius: 5px;
+    
+  }
+
+  .btn-2{
+    background-color: rgb(28, 28, 252);
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    border-style: none;
+   
+
+}
+.btn2{
+    text-align: center;
+}
+.heading2{
+    text-align: center;
+}
+#car-1{
+    text-decoration: solid;
+    color: blue;
+    font-weight: 800;
+    font-family: "Vast Shadow", serif;
+    font-size: 40px;
+}
+.grid-2{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 10px;
+    width: 750px;
+    height: 450px;
+    
+}
+.grimg-1{
+    background-color: aqua;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.grimg-2{
+    background-color: rgb(15, 24, 24);
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.grimg-3{
+    background-color: rgb(143, 166, 166);
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.grimg-4{
+    background-color: rgb(112, 60, 147);
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.grimg-5{
+    background-color: rgb(145, 147, 60);
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.grimg-6{
+    background-color: rgb(51, 52, 3);
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+.grimg-7{
+    background-color: rgb(11, 35, 71);
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+.grimg-8{
+    background-color: rgb(111, 111, 113);
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+.grimg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.vdo-grid{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+
+}
+#travel{
+    color: rgb(220, 165, 37);
+    font-weight: 600;
+    font-size: 30px;
+}
+#travel span{
+    color: black;
+    font-size: 15px;
+}
+#free{
+    border-radius: 20%;
+}
+#footer{
+    background-color: rgb(75, 181, 227);
+}
+#footer1 h4{
+    color:rgb(57, 42, 7);
+}
+#footer2 h4{
+    color:rgb(57, 42, 7);
+}
+#icons1 i{
+    color: rgb(106, 252, 203);
+}
+#round{
+    border-radius: 50%;
+}
+.down{
+    border-radius: 50%;
+    margin-top: 60px;
+}
+#features{
+    text-align: center;
+    font-family: "Allura", cursive;
+}
+/* .north{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #111111;
+}
+.card-2{
+    width: 20em;
+    height: 25em;
+    position: relative;
+    margin: 0 1em;
+    background: url('./img/Ghats-Varanasi-Ganges-River-India-Uttar-Pradesh.webp') center;
+    background-size: cover;
+    color: #fff;
+    border-radius: 18px;
+    box-shadow: #000 0px 11px 15px 0px;
+}
+.card-2 .overlay{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 123, 0, 0.8);
+    opacity: 0;
+    transition: 0.3s;
+    border-radius: 18px;
+}
+.card-2:hover .overlay {opacity: 1;}
+.card-2 .btn-card{
+       padding: 0.6em 1.3em;
+       text-decoration: none;
+       color: #fff;
+       border: 2px #fff solid;
+       letter-spacing: 1px;
+       border-radius: 8px;
+}
+.card-2 .btn-card:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+.card-2 .btn-card, .card-2 h1
+{
+    transition: 0.3s;
+    transform: translateY(-20px);
+}
+.card-2:hover .btn-card, .card-2:hover h1
+{
+    transform: translateY(0);
+} */
+ #review{
+    font-family: "Allura", cursive;
+ }
+ #review i {
+    font-size: 40px;
+    margin-bottom: 20px;
+ }
